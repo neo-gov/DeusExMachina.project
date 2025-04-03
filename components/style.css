@@ -1,0 +1,78 @@
+*{
+    background-color: 0;
+    padding: 0;
+    margin: 0;
+
+    font-family: var(--fonte2);
+}
+
+:root{
+    --preto: #393636;
+    --branco: rgb(238, 234, 234);
+
+    --fonte1: "Century Schoolbook" , "Times New Roman" , Century;
+    --fonte2: Helvetica, Arial, sans-serif
+}
+
+body{
+    background-color: var(--branco);
+}
+
+.fonte1{
+    color: var(--preto);
+    font-family: var(--fonte1);
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.neo{
+    font-style: italic;
+}
+
+.neo::after{
+    content: '™';
+    font-style: italic;
+}
+
+.neo-cabecalho{
+    width: 100%;
+
+    border-bottom: 1px solid var(--preto);
+}
+
+
+/* Página entrada */
+.formulario-de-entrada{
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+}
+
+    .formulario-de-entrada label{
+        font-size: .9em;
+    }
+
+    .formulario-de-entrada input{
+        width: 100%;
+
+        font-size: .9em;
+        border-radius: 3px;
+    }
+
+        .formulario-de-entrada .campo-formulario{
+
+        }
+
+    .formulario-de-entrada button{
+        width: 100%;
+        margin-top: 20px;
+        padding: 3px;
+
+        font-size: .9em;
+        
+        border-radius: 5px;
+    }
