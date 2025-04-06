@@ -46,9 +46,8 @@ body{
 /* Página entrada */
 .formulario-de-entrada{
     width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    border: 1px solid var(--preto);
+    margin: 10px 20px;
+    padding: 5px;
     border-radius: 10px;
 }
 
